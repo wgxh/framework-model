@@ -1,11 +1,11 @@
 {
   "name": "@wgxh-framework/model",
-  "version": "1.0.1",
+  "version": "1.0.1-1",
   "description": "Data manager of my framework.",
   "main": "index.ts",
   "private": false,
   "scripts": {
-		"build": "rollup -c rollup.config.js",
+    "build": "rollup -c rollup.config.js",
     "test": "jest"
   },
   "repository": {
