@@ -24,7 +24,8 @@
   },
   "homepage": "https://github.com/wgxh/wfm#readme",
   "dependencies": {
-    "@wgxh-framework/core": "^1.0.0"
+    "@wgxh-framework/core": "^1.0.0-5",
+    "@wgxh-framework/model": "^1.0.1-1"
   },
   "devDependencies": {
     "@rollup/plugin-babel": "^5.3.0",

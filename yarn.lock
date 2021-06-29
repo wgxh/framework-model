@@ -653,6 +653,18 @@
   resolved "https://registry.yarnpkg.com/@wgxh-framework/core/-/core-1.0.0.tgz#0b99e2002d7284dca41d0f5117556d4bdcdf625d"
   integrity sha512-hjtiaxYLshiYZbYInUD1rzbkWCE/XAPz+JZrlpxl7UYcuj7Fi41nSoPdnU2unXBVh+x8V9UvpBJb+kuOupigRw==
 
+"@wgxh-framework/core@^1.0.0-5":
+  version "1.0.0-5"
+  resolved "https://registry.yarnpkg.com/@wgxh-framework/core/-/core-1.0.0-5.tgz#1f76a855393538722b452a0de2ed5844b09d86d6"
+  integrity sha512-sSiRqr/Mb3OQ9pFPAlp+1hjXwo8GE1LM5Bw1g6kPRkUWYXsJZrq+FBV2bGX8KsSOVCLeMBv1gKv+1DVHEpTMdw==
+
+"@wgxh-framework/model@^1.0.1-1":
+  version "1.0.1-1"
+  resolved "https://registry.yarnpkg.com/@wgxh-framework/model/-/model-1.0.1-1.tgz#7876f3eb462b0da53bf35a7c1f5a21f627aa6435"
+  integrity sha512-j43DK1gM/JMVooF4HBeYbgL+pto0s1Ll9j1kp3+6buFUk5K5gOezO9Elw7vW6yvVW5ceooSd20muxyzneAIC8g==
+  dependencies:
+    "@wgxh-framework/core" "^1.0.0"
+
 abab@^2.0.3, abab@^2.0.5:
   version "2.0.5"
   resolved "https://registry.nlark.com/abab/download/abab-2.0.5.tgz"

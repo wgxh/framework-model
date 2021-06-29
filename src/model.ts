@@ -1,4 +1,4 @@
-import { use } from "@wgxh-framework/core";
+import { use, readonly } from "@wgxh-framework/core";
 
 export interface Action<S extends object> {
 	(this: S, ...args: any[]): void;
@@ -37,7 +37,7 @@ export class Model<S extends object, A extends Actions<S>> {
 		return this;
 	}
 	getState() {
-		return this.state;
+		return readonly(this.state);
 	}
 	select<T>(selector: (state: S) => T) {
 		return selector(this.state);
